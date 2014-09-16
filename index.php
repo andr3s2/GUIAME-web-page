@@ -1,8 +1,32 @@
 <?php
 
+require './model/Model.php';
+$data = array();
+$model = new Model();
+$data['view'] = 'index';
+
+if (isset($_GET['option'])) {
+    $option = $_GET['option'];
+    $data['view'] = $option;
+    switch ($option) {
+        case 'investigadores':
+            $data['investigadores'] = $model->get_all_investigadores();
+            break;
+        case 'proyectos':
+            $data['proyectos'] = $model->get_all_proyectos();
+            break;
+        case 'noticias':
+            $data['noticias'] = $model->get_all_noticias();
+            break;
+        case 'publicaciones':
+            $data['publicaciones'] = $model->get_all_publicaciones();
+            break;
+        default:
+            header('location:index.php');
+    }
+}
 
 
-$data['view'] = 'test';
 require './views/template.php';
 
 
@@ -11,18 +35,3 @@ require './views/template.php';
 
 
 
-/*
- * 
- * if(isset($_GET['option'])){
-    extract($_GET);   
-    extract($_POST);   
-    if($option == "mensaje"){
-        $file = fopen('./messages.txt', 'a');
-        $full_message = mysql_real_escape_string("{$nombre_completo}-{$organizacion}-{$correo}-{$numero}-{$mensaje}");
-        fwrite($file, $full_message ."\n");
-        fclose($file);
-        
-       // header("location:index.php");
-    }
-}
- */
