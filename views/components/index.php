@@ -2,14 +2,14 @@
     <div id="carousel-example-generic" class="carousel carousel-razon slide" data-ride="carousel" data-interval="5000">
         <!-- Indicators -->
         <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+            <!--<li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>-->
             <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
             <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
         </ol>
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
-            <div class="item">
+          <!--  <div class="item">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 col-sm-7">
@@ -33,21 +33,22 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>-->
             <div class="item active">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 col-sm-8">
                             <div class="carousel-caption">
                                 <div class="carousel-text">
-                                   <h1 class="animated fadeInDownBig animation-delay-7 carousel-title">Customization extremes</h1>
-                                   <h2 class="animated fadeInDownBig animation-delay-5  crousel-subtitle">Configure your own template in few easy steps</h2>
+                                   <h1 class="animated fadeInDownBig animation-delay-7 carousel-title">Investigaciones en Informática Educativa</h1>
+                                   <h2 class="animated fadeInDownBig animation-delay-5  crousel-subtitle">Buscamos mejorar procesos de enseñanza mediante:</h2>
                                    <ul class="list-unstyled carousel-list">
-                                       <li class="animated bounceInLeft animation-delay-11"><i class="fa fa-check"></i>25 default colors</li>
-                                       <li class="animated bounceInLeft animation-delay-13"><i class="fa fa-check"></i>Variables less for all colors</li>
-                                       <li class="animated bounceInLeft animation-delay-15"><i class="fa fa-check"></i>Full width and boxed mode</li>
+                                       <li class="animated bounceInLeft animation-delay-11"><i class="fa fa-check"></i>Proyectos y trabajos de grados</li>
+                                       <li class="animated bounceInLeft animation-delay-13"><i class="fa fa-check"></i>Participaciones en congresos nacionales e internacionales</li>
+                                       <li class="animated bounceInLeft animation-delay-15"><i class="fa fa-check"></i>Publicaciones en revistas indexadas</li>
+                                       <li class="animated bounceInLeft animation-delay-15"><i class="fa fa-check"></i>Desarrollo de plataformas educativas</li>
                                    </ul>
-                                   <p class="animated fadeInUpBig animation-delay-17">Lorem ipsum dolor sit amet consectetur adipisicing elit. In rerum maxime quis tenetur dolor <span>recusandae a nulla</span> qui enim dolorem.</p>
+                                  <!-- <p class="animated fadeInUpBig animation-delay-17">Lorem ipsum dolor sit amet consectetur adipisicing elit. In rerum maxime quis tenetur dolor <span>recusandae a nulla</span> qui enim dolorem.</p>-->
                                </div>
                             </div>
                         </div>
@@ -65,14 +66,14 @@
                         <div class="col-lg-6 col-md-7 col-sm-9">
                             <div class="carousel-caption">
                                 <div class="carousel-text">
-                                   <h1 class="animated fadeInDownBig animation-delay-7 carousel-title">Templates for almost everything</h1>
-                                   <h2 class="animated fadeInDownBig animation-delay-5  crousel-subtitle">Artificial Reason include over 80 HTML templates</h2>
+                                   <h1 class="animated fadeInDownBig animation-delay-7 carousel-title">Desarrollo de Ambientes Virtuales de Aprendizaje</h1>
+                                   <h2 class="animated fadeInDownBig animation-delay-5  crousel-subtitle">Diseñamos y creamos plataformas educativas </h2>
                                    <ul class="list-unstyled carousel-list">
-                                       <li class="animated bounceInLeft animation-delay-11"><i class="fa fa-check"></i>84 HTML Templates</li>
-                                       <li class="animated bounceInLeft animation-delay-13"><i class="fa fa-check"></i>More than 50 components</li>
-                                       <li class="animated bounceInLeft animation-delay-15"><i class="fa fa-check"></i>Extra CSS classes</li>
+                                       <li class="animated bounceInLeft animation-delay-11"><i class="fa fa-check"></i>Ciencias exactas</li>
+                                       <li class="animated bounceInLeft animation-delay-13"><i class="fa fa-check"></i>Programación</li>
+                                       <li class="animated bounceInLeft animation-delay-15"><i class="fa fa-check"></i>Videojuegos</li>
                                    </ul>
-                                   <p class="animated fadeInUpBig animation-delay-17">Lorem ipsum dolor sit amet consectetur adipisicing elit. In rerum maxime quis tenetur dolor <span>recusandae a nulla</span> qui enim dolorem.</p>
+                                   <p class="animated fadeInUpBig animation-delay-17">Podemos crear una para <span>tí</span> o para tu <span>facultad</span></p>
                                </div>
                             </div>
                         </div>

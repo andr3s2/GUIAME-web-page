@@ -1,16 +1,23 @@
-<?php
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+   
+   
+    <div class="container">
+        <div class="row">
+            
+             <h2 class='pull-left'><span class='letter'>Publicaciones</span></h2>
+             <br>
+             <br>
+             <br>
+            <ul>
 
-/**
- * Description of publicaciones
- *
- * @author AndresPineda
- */
-class publicaciones {
-    //put your code here
-}
+                <?php while ($publicacion = mysql_fetch_array($data['publicaciones'])) { ?>
+                    <li> <?php echo $publicacion[1] ?></li>
+                    <br>
+                <?php } ?>
+            </ul>
+        </div>
+    </div>
+
+
+
+

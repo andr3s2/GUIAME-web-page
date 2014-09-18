@@ -1,0 +1,35 @@
+#logo-guiame{
+    height: 80px;
+    width: 180px;
+}
+
+#logo-unalmed{
+    height: 90px;
+    width: 180px;
+}
+
+
+.foto-investigador{
+    width: 150px;
+    height: 160px;
+}
+.foto-proyecto{
+    width: 200px;
+    height: 100px;
+}
+.foto-proyecto-grande{
+    width: 200px;
+    height: 150px;
+}
+
+.foto-investigador-grande{
+    width: 200px;
+    height: 150px;
+}
+
+
+
+.letter{
+    font-family: 'Cabin Sketch', cursive !important;
+}
+

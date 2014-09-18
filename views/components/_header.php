@@ -10,12 +10,13 @@
     <meta name="description" content="">
 
     <!-- CSS -->
+    <link href="./assets/css/guiame.css" rel="stylesheet" media="screen">
     <link href="./assets/css/preload.css" rel="stylesheet" media="screen">
     <link href="./assets/fa4/css/font-awesome.min.css" rel="stylesheet" media="screen">
     <link href="./assets/css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="./assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
     <link href="./assets/css/animate.min.css" rel="stylesheet" media="screen">
-    <link href="./assets/css/slidebars.css" rel="stylesheet" media="screen">
+    <link href="./assets/css/slidebars.css" rel="stylesheet" media="screen">    
     <link href="./assets/css/lightbox.css" rel="stylesheet" media="screen">
     <link href="./assets/css/jquery.bxslider.css" rel="stylesheet">
     <link href="./assets/css/syntaxhighlighter/shCore.css" rel="stylesheet" media="screen">
@@ -143,7 +144,7 @@
                 </li>
                 <!--<li class="dropdown">-->
                 <li class="">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Investigadores</a>
+                    <a href="index.php?option=investigadores" >Investigadores</a>
                      <!--<ul class="dropdown-menu dropdown-menu-left">
                         <li class="dropdown-submenu">
                                 <a href="javascript:void(0);" class="has_children">CSS</a>
@@ -196,7 +197,7 @@
                 </li>
                 <!--<li class="dropdown">-->
                 <li class="">
-                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Proyectos</a>
+                    <a href="index.php?option=proyectos" >Proyectos</a>
                      <ul class="dropdown-menu dropdown-menu-left">
                         <li class="dropdown-submenu">
                                 <a href="javascript:void(0);" class="has_children">About us &amp; Team</a>
