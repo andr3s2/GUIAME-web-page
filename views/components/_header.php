@@ -5,7 +5,7 @@
 
     <title>GUIAME | Grupo de Investiagación en Informática en Informática Educativa</title>
 
-    <link rel="shortcut icon" href="./assets/img/favicon.png">
+    <link rel="shortcut icon" href="./assets/img/logos/guiame-ico.png">
 
     <meta name="description" content="">
 
