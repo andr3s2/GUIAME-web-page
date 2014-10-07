@@ -11,7 +11,7 @@
             <ul>
 
                 <?php while ($publicacion = mysql_fetch_array($data['publicaciones'])) { ?>
-                    <li> <?php echo $publicacion[1] ?></li>
+                    <li> <var><?php echo $publicacion[1] ?></var></li>
                     <br>
                 <?php } ?>
             </ul>

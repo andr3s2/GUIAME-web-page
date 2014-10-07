@@ -20,7 +20,7 @@ class Model {
     #funciones para los INVESTIGADORES  
 
     public function get_all_investigadores() {
-        $query = "SELECT * FROM investigador";
+        $query = "SELECT * FROM investigador ORDER BY rol DESC ";
         return $this->exec_query($query);
     }
 
@@ -93,6 +93,12 @@ class Model {
         $query = "SELECT * FROM publicacion ORDER BY fecha_publicacion DESC";
         return $this->exec_query($query);
     }
+    
+    #funciones para los eventos
+    public function get_all_events(){
+         $query = "SELECT * FROM evento ORDER BY fecha DESC";
+        return $this->exec_query($query);
+    }
 
    
 
@@ -130,5 +136,8 @@ class Model {
         $out = substr($str, 0, $c) . "... <a href='$controller.php'>[ver más]</a>";
         return $out;
     }
+    
+    
+    
 
 }

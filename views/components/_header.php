@@ -11,6 +11,7 @@
 
     <!-- CSS -->
     <link href="./assets/css/guiame.css" rel="stylesheet" media="screen">
+    <link href="./assets/css/ribbon.css" rel="stylesheet" media="screen">
     <link href="./assets/css/preload.css" rel="stylesheet" media="screen">
     <link href="./assets/fa4/css/font-awesome.min.css" rel="stylesheet" media="screen">
     <link href="./assets/css/bootstrap.css" rel="stylesheet" media="screen">

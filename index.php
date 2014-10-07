@@ -21,6 +21,9 @@ if (isset($_GET['option'])) {
         case 'publicaciones':
             $data['publicaciones'] = $model->get_all_publicaciones();
             break;
+        case 'eventos':
+            $data['eventos'] = $model->get_all_eventos();
+            break;
         default:
             header('location:index.php');
     }
