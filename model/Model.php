@@ -89,8 +89,17 @@ class Model {
 
     #funciones para las PUBLICACIONES
 
-    public function get_all_publicaciones() {
-        $query = "SELECT * FROM publicacion ORDER BY fecha_publicacion DESC";
+    public function get_all_publicaciones($tipo='a') { //a:articulo, c: congreso
+      
+      switch($tipo){
+        case 'a': //articulo
+          $query = "SELECT * FROM publicacion WHERE tipo='a' ORDER BY fecha_publicacion DESC";
+        case 'c': //congreso
+          $query = "SELECT * FROM publicacion ORDER BY fecha_publicacion DESC";
+      }
+        
+      
+        
         return $this->exec_query($query);
     }
     

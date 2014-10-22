@@ -27,7 +27,10 @@
     height: 150px;
 }
 
-
+.img-otra{
+    width: 150px;
+    height: 150px;
+}
 
 .letter{
     font-family: 'Cabin Sketch', cursive !important;

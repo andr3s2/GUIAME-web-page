@@ -52,57 +52,16 @@
         <nav class="top-nav">
             <ul class="top-nav-social hidden-sm">
               <!--  <li><a href="#" class="animated fadeIn animation-delay-6 rss"><i class="fa fa-rss"></i></a></li>-->
-                <li><a href="#" class="animated fadeIn animation-delay-7 twitter"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#" class="animated fadeIn animation-delay-8 facebook"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#" class="animated fadeIn animation-delay-9 googleplus"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="https://twitter.com/grupoGUIAME" target="_blank" class="animated fadeIn animation-delay-7 twitter"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://m.facebook.com/groups/151603098266386" target="_blank" class="animated fadeIn animation-delay-8 facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.youtube.com/user/eruditoJuegoEd/feed" target="_blank" class="animated fadeIn animation-delay-9 googleplus"><i class="fa fa-google-plus"></i></a></li>
                 <!--<li><a href="#" class="animated fadeIn animation-delay-9 instagram"><i class="fa fa-instagram"></i></a></li>-->
               <!--  <li><a href="#" class="animated fadeIn animation-delay-8 vine"><i class="fa fa-vine"></i></a></li>-->
                 <!--<li><a href="#" class="animated fadeIn animation-delay-7 linkedin"><i class="fa fa-linkedin"></i></a></li>-->
                 <!--<li><a href="#" class="animated fadeIn animation-delay-6 flickr"><i class="fa fa-flickr"></i></a></li>-->
             </ul>
 
-          <!--  <div class="dropdown animated fadeInDown animation-delay-11">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Login</a>
-                <div class="dropdown-menu dropdown-menu-right dropdown-login-box animated fadeInUp">
-                    <form role="form">
-                        <h4>Login Form</h4>
-
-                        <div class="form-group">
-                            <div class="input-group login-input">
-                                <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                <input type="text" class="form-control" placeholder="Username">
-                            </div>
-                            <br>
-                            <div class="input-group login-input">
-                                <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                <input type="password" class="form-control" placeholder="Password">
-                            </div>
-                            <div class="checkbox pull-left">
-                                <label>
-                                    <input type="checkbox"> Remember me
-                                </label>
-                            </div>
-                            <button type="submit" class="btn btn-ar btn-primary pull-right">Login</button>
-                            <div class="clearfix"></div>
-                        </div>
-                    </form>
-                </div>
-            </div> -->
-            <!-- dropdown -->
-
-            <div class="dropdown animated fadeInDown animation-delay-13">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
-                <div class="dropdown-menu dropdown-menu-right dropdown-search-box animated fadeInUp">
-                    <form role="form">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Search...">
-                            <span class="input-group-btn">
-                                <button class="btn btn-ar btn-primary" type="button">Go!</button>
-                            </span>
-                        </div><!-- /input-group -->
-                    </form>
-                </div>
-            </div> <!-- dropdown -->
+         
         </nav>
     </div> <!-- container -->
 </header> <!-- header-full -->

@@ -20,7 +20,7 @@
 
 
                     <div class="col-xs-12 col-sm-3">
-                        <br>                        
+                                           
                         <a href="<?php echo $proyecto['url'] ?>" target="_blank"><img class='foto-proyecto-grande' src='./assets/img/proyectos/<?php echo $proyecto['imagen'] ?>' style='width: 250px; height: 120px;'> </a>
                     </div>
 

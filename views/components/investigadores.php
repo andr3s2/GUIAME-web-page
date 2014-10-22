@@ -21,7 +21,7 @@
                 
                 
                 <div class="col-xs-12 col-sm-2">
-                    <img class='foto-investigador' src='./assets/img/investigadores/<?php echo $investigador['imagen']?>'> 
+                    <img class='foto-investigador img-circle' src='./assets/img/investigadores/<?php echo $investigador['imagen']?>'> 
                 </div>
                 
                 <div class="col-xs-12 col-md-10">
