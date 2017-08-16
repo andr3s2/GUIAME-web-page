@@ -6,15 +6,16 @@ class Model {
     protected $username;
     protected $pass;
     protected $bd;
+    protected $link;
 
     public function __construct() {
         $this->host = "localhost";
         $this->username = "root";
-        $this->pass = "";
+        $this->pass = "f273e31c203a8716dbb3958910a4dd1a71b12426269a2e9c";
         $this->bd = "guiame";
-        $link = mysql_connect($this->host, $this->username, $this->pass);
-        mysql_select_db($this->bd, $link);
-        mysql_set_charset("utf8");
+        $this->link = mysqli_connect($this->host, $this->username, $this->pass);
+        mysqli_select_db($this->link,$this->bd);
+        mysqli_set_charset($this->link, "utf8");
     }
 
     #funciones para los INVESTIGADORES  
@@ -31,7 +32,7 @@ class Model {
         $result = $this->exec_query($query);
 
         $investigadores = array();
-        while ($inv = mysql_fetch_array($result)) {
+        while ($inv = mysqli_fetch_array($result)) {
             $investigadores[] = $inv;
         }
         shuffle($investigadores);
@@ -50,7 +51,7 @@ class Model {
 
         $proyectos = array();
 
-        while ($proy = mysql_fetch_array($result)) {
+        while ($proy = mysqli_fetch_array($result)) {
             $proyectos[] = array('nombre' => $proy['nombre'], 'url' => $proy['url']);
         }
 
@@ -78,7 +79,7 @@ class Model {
         $result = $this->exec_query($query);
 
         $proyectos = array();
-        while ($proy = mysql_fetch_array($result)) {
+        while ($proy = mysqli_fetch_array($result)) {
             $proyectos[] = $proy;
         }
         shuffle($proyectos);
@@ -120,7 +121,7 @@ class Model {
 
     private function exec_query($query) {
 
-        return mysql_query($query);
+        return mysqli_query($this->link, $query);
     }
 
     public static function procesar_proyectos($proyectos) {

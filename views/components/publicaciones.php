@@ -10,7 +10,7 @@
              <br>
             <ul>
 
-                <?php while ($publicacion = mysql_fetch_array($data['publicaciones'])) { ?>
+                <?php while ($publicacion = mysqli_fetch_array($data['publicaciones'])) { ?>
                     <li> <var><?php echo $publicacion[1] ?></var></li>
                     <br>
                 <?php } ?>

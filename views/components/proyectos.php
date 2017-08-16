@@ -13,7 +13,7 @@
         <hr>
 
 
-        <?php while ($proyecto = mysql_fetch_array($data['proyectos'])) { ?> 
+        <?php while ($proyecto = mysqli_fetch_array($data['proyectos'])) { ?> 
 
             <div class="container-fluid">
                 <div class="row">

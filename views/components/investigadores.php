@@ -14,7 +14,7 @@
         <br>
         <br>
         
-        <?php while($investigador = mysql_fetch_array($data['investigadores'])) {   ?>
+        <?php while($investigador = mysqli_fetch_array($data['investigadores'])) {   ?>
         
         <div class="container">
             <div class="row">
